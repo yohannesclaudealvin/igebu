@@ -1,10 +1,10 @@
 import streamlit as st
 
-# Titre de l'application
+# En-tête de l'application
 st.sidebar.image("IMAGE.jpg", width=150)
-st.title('ANALYSE POUR LA PRÉVISION QUOTIDIENNE')
-st.sidebar.title('DEPARTEMENT DE HYDROMETEOROLOGIE ET DE L\'AGROCLIMATOLOGIE')
-st.sidebar.title('Service METEO - ASSISTANCE À LA NAVIGATION AÉRIENNE')
+st.sidebar.title('INSTITUT GEOGRAPHIQUE DU BURUNDI')
+st.sidebar.title('DEPARTEMENT DE HYDROMETEOROLOGIE ET DE L\'agroclimatologie')
+st.sidebar.title('Service météo - ASSISTANCE À LA NAVIGATION AÉRIENNE')
 
 # Fonction pour afficher les liens
 def afficher_liens(titre1, lien1, titre2, lien2):
@@ -19,33 +19,24 @@ st.header("Images satellitaires depuis Eumetsat")
 st.write("Visualisez les images satellitaires IR 10.8 et RGB depuis Eumetsat.")
 st.markdown('[IR 10.8](https://eumetview.eumetsat.int/static-images/MSG/IMAGERY/IR108/BW/CENTRALAFRICA/index.htm)')
 st.markdown('[RGB](https://eumetview.eumetsat.int/static-images/MSG/RGB/CONVECTION/CENTRALAFRICA/index.htm)')
+st.markdown('Importe l’image satellitaire à 600Z du jour depuis Eumetsat RGB composite, puis convection dans la zone centrale de l’Afrique : [EUMETSAT Image Gallery Animation - Meteosat 0 degree Convection Central Africa](https://eumetview.eumetsat.int/static-images/MSG/RGB/CONVECTION/CENTRALAFRICA/index.htm)')
+st.markdown('Real time satellite image : [Real time satellite image](https://science.ncas.ac.uk/swift/resources/summary/429%2C612%2C483%2C767%2C1623/0)')
 
 # Section "Flux des vents depuis Forecast Maps"
 st.header("Flux des vents depuis Forecast Maps")
-st.write("Consultez les flux des vents à 850 mb et à 200 mb pour l’Afrique Day1 et Day2 depuis Forecast Maps.")
+st.write("Consultez les flux des vents à 850 mb et à 200 mb pour l’Afrique Day1 (on choisit Day0.5) et Day2 (on choisit Day1.5) depuis Forecast Maps.")
 st.markdown('[Vents à 850 mb](http://wxmaps.org/fcst.php)')
 st.markdown('[Vents à 200 mb](http://wxmaps.org/fcst.php)')
 
-# Section "Cartes météorologiques depuis ECMWF"
-st.header("Cartes météorologiques depuis ECMWF")
+# Section "Cartes MSLP depuis ECMWF"
+st.header("Cartes MSLP depuis ECMWF")
 st.write("Accédez aux cartes MSLP depuis ECMWF.")
-st.markdown('[Cartes MSLP](https://charts.ecmwf.int/products/medium-mslp-wind850?base_time=202404030000&projection=opencharts_africa&valid_time=202404030000)')
+st.markdown('[Cartes MSLP pour Day1 et Day2](https://charts.ecmwf.int/products/medium-mslp-wind850?base_time=202308100000&projection=opencharts_africa&valid_time=202308111200)')
 
 # Section "Cartes des vents et humidité relative depuis Climate Prediction Center"
 st.header("Cartes des vents et humidité relative depuis Climate Prediction Center")
 st.write("Consultez les cartes des vents et d’humidité relative depuis Climate Prediction Center.")
-st.markdown('[Cartes des vents](https://www.cpc.ncep.noaa.gov/products/international/cpci/data/12/fcsts_eafrica.shtml)')
-st.markdown('[Humidité relative](https://www.cpc.ncep.noaa.gov/products/international/cpci/data/12/fcsts_eafrica.shtml)')
-
-# Section "Autres données météorologiques"
-st.header("Autres données météorologiques")
-st.write("Consultez différentes données météorologiques.")
-st.markdown('[Energie Potentielle de Convection Disponible (CAPE)](https://www.cpc.ncep.noaa.gov/products/international/cpci/data/12/fcsts_eafrica.shtml)')
-st.markdown('[Précipitations en 24h selon GFS](https://www.cpc.ncep.noaa.gov/products/international/cpci/data/00/fcsts_eafrica.shtml)')
-st.markdown('[Rain and mean sea level pressure depuis ECMWF](https://charts.ecmwf.int/products/medium-mslp-rain?base_time=202308100000&interval=6&projection=opencharts_africa&valid_time=202308100600)')
-st.markdown('[RDT](http://rsmc.weathersa.co.za/rsmcImg/hydrogii/RDT_SADC/RDT.htm)')
-st.markdown('[Indice de prévision extrême de précipitation depuis ECMWF](https://charts.ecmwf.int/products/efi2web_tp?area=Africa&base_time=202308100000&day=1&quantile=99)')
-st.markdown('[Indice de prévision extrême de vitesse de vent depuis ECMWF](https://charts.ecmwf.int/products/efi2web_10ff?area=Africa&base_time=202308100000&day=1&quantile=99)')
+st.markdown('[Cartes des vents et humidité relative pour Day1 et Day2](https://www.cpc.ncep.noaa.gov/products/international/cpci/data/12/fcsts_eafrica.shtml)')
 
 # Section "Prévision pour le Burundi"
 st.header("Prévision pour le Burundi")
