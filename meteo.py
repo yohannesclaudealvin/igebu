@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Titre de l'application
-st.sidebar.image("C:\\Users\\alvin\\Desktop\\METEO\\IMAGE.jpg", width=150)
+st.sidebar.image("IMAGE.jpg", width=150)
 st.title('ANALYSE POUR LA PRÉVISION QUOTIDIENNE')
 st.sidebar.title('DEPARTEMENT DE HYDROMETEOROLOGIE ET DE L\'AGROCLIMATOLOGIE')
 st.sidebar.title('Service METEO - ASSISTANCE À LA NAVIGATION AÉRIENNE')
