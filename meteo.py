@@ -21,7 +21,8 @@ st.markdown('[IR 10.8](https://eumetview.eumetsat.int/static-images/MSG/IMAGERY/
 st.markdown('[RGB](https://eumetview.eumetsat.int/static-images/MSG/RGB/CONVECTION/CENTRALAFRICA/index.htm)')
 st.markdown('Importe l’image satellitaire à 600Z du jour depuis Eumetsat RGB composite, puis convection dans la zone centrale de l’Afrique : [EUMETSAT Image Gallery Animation - Meteosat 0 degree Convection Central Africa](https://eumetview.eumetsat.int/static-images/MSG/RGB/CONVECTION/CENTRALAFRICA/index.htm)')
 st.markdown('Real time satellite image : [Real time satellite image](https://science.ncas.ac.uk/swift/resources/summary/429%2C612%2C483%2C767%2C1623/0)')
-
+# Ajout du lien vers le graphique météorologique ECMWF
+st.markdown('Graphique météorologique ECMWF : [Graphique ECMWF](https://charts.ecmwf.int/products/opencharts_meteogram?base_time=202404050000&epsgram=classical_10d&lat=51.4333&lon=-1.0&station_name=Reading)')
 # Section "Flux des vents depuis Forecast Maps"
 st.header("Flux des vents depuis Forecast Maps")
 st.write("Consultez les flux des vents à 850 mb et à 200 mb pour l’Afrique Day1 (on choisit Day0.5) et Day2 (on choisit Day1.5) depuis Forecast Maps.")
