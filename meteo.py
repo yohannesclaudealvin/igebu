@@ -56,7 +56,7 @@ afficher_liens("Lever et Coucher du soleil", "https://fr.meteocast.net/sunrise-s
                "Meteologix", "https://meteologix.com/fr")
 
 # Section "Prévision pour le Burundi"
-st.header("NWC-SAF (Produits satellitaires d’EUMETSAT 3eme génération)")
+
 
 # Fonction pour afficher les liens
 def afficher_liens(liens):
