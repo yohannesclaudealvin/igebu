@@ -83,7 +83,7 @@ def afficher_liens(liens):
 
 # Liens pour Africa Web Viewer et les indices MUCAPE, Kindex, Totalx
 liens_africa_web_viewer = {
-    "Africa Web Viewer (metoffice.gov.uk)": "https://www.metoffice.gov.uk/weather/specialist-forecasts/africa",
+    "Africa Web Viewer (metoffice.gov.uk)": "https://www.metoffice.gov.uk/weather/world/burundi/list",
     "MUCAPE index, Kindex, Totalx": "https://charts.ecmwf.int/products/medium-indices?base_time=202307250000&layer_name=mucape&projection=opencharts_africa&valid_time=202307250000"
 }
 
