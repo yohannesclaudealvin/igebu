@@ -87,7 +87,7 @@ liens_africa_web_viewer = {
     "MUCAPE index, Kindex, Totalx": "https://charts.ecmwf.int/products/medium-indices?base_time=202307250000&layer_name=mucape&projection=opencharts_africa&valid_time=202307250000"
 }
 
-# Section "Africa Web Viewer et les indices MUCAPE, Kindex, Totalx"
-st.header("Africa Web Viewer et les indices MUCAPE, Kindex, Totalx")
+# Section "Burundi Web Viewer et les indices MUCAPE, Kindex, Totalx"
+st.header("Burundi Web Viewer et les indices MUCAPE, Kindex, Totalx")
 st.write("Voici les liens vers Africa Web Viewer et les indices MUCAPE, Kindex, Totalx :")
 afficher_liens(liens_africa_web_viewer)
