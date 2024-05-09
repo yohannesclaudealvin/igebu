@@ -43,7 +43,7 @@ st.markdown('[Cartes des vents et humidité relative pour Day1 et Day2](https://
 st.header("Prévision pour le Burundi")
 st.write("Consultez ces sites pour la prévision au Burundi :")
 afficher_liens("RSMC-DAR ES SALAAM", "http://tma.go.tz/portal/rsmc",
-               "RSMC Pretoria", "http://rsmc.weathersa.co.za/index.php")
+               "RSMC Pretoria", "http://rsmc.weathersa.co.za")
 afficher_liens("METEOCIEL", "https://www.meteociel.fr/previsions/41954/rumonge.htm",
                "VENTUSKY", "https://www.ventusky.com/?p=-2.86;32.90;6&l=rain-3h&t=20221005/0300")
 afficher_liens("Météoblue", "https://content.meteoblue.com/fr/specifications/standards/symboles-et-pictogrammes",
