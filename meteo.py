@@ -54,3 +54,24 @@ afficher_liens("Accuweather", "https://www.accuweather.com/",
                "NWC-SAF", "https://eumetrain.org/")
 afficher_liens("Lever et Coucher du soleil", "https://fr.meteocast.net/sunrise-sunset/bi/bujumbura/",
                "Meteologix", "https://meteologix.com/fr")
+
+# Section "Prévision pour le Burundi"
+st.header("NWC-SAF (Produits satellitaires d’EUMETSAT 3eme génération)")
+
+# Fonction pour afficher les liens
+def afficher_liens(liens):
+    for nom, url in liens.items():
+        st.write(f"- [{nom}]({url})")
+
+# Liens pour les produits satellitaires d'EUMETSAT 3ème génération
+liens_eumetsat = {
+    "EUMETRAIN (ePort/ePort Pro)": "https://eumetrain.org/",
+    "EUMETSAT (View)": "https://view.eumetsat.int",
+    "Swift": "https://science.ncas.ac.uk/swift/",
+    "ACMAD": "http://sgbd.acmad.org:8080/thredds/fileServer/RDT/index.html"
+}
+
+# Section "NWC-SAF (Produits satellitaires d’EUMETSAT 3ème génération)"
+st.header("NWC-SAF (Produits satellitaires d’EUMETSAT 3ème génération)")
+st.write("Voici les liens vers les produits satellitaires d’EUMETSAT 3ème génération :")
+afficher_liens(liens_eumetsat)
