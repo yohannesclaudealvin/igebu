@@ -75,3 +75,19 @@ liens_eumetsat = {
 st.header("NWC-SAF (Produits satellitaires d’EUMETSAT 3ème génération)")
 st.write("Voici les liens vers les produits satellitaires d’EUMETSAT 3ème génération :")
 afficher_liens(liens_eumetsat)
+
+# Fonction pour afficher les liens
+def afficher_liens(liens):
+    for nom, url in liens.items():
+        st.write(f"- [{nom}]({url})")
+
+# Liens pour Africa Web Viewer et les indices MUCAPE, Kindex, Totalx
+liens_africa_web_viewer = {
+    "Africa Web Viewer (metoffice.gov.uk)": "https://www.metoffice.gov.uk/weather/specialist-forecasts/africa",
+    "MUCAPE index, Kindex, Totalx": "https://charts.ecmwf.int/products/medium-indices?base_time=202307250000&layer_name=mucape&projection=opencharts_africa&valid_time=202307250000"
+}
+
+# Section "Africa Web Viewer et les indices MUCAPE, Kindex, Totalx"
+st.header("Africa Web Viewer et les indices MUCAPE, Kindex, Totalx")
+st.write("Voici les liens vers Africa Web Viewer et les indices MUCAPE, Kindex, Totalx :")
+afficher_liens(liens_africa_web_viewer)
