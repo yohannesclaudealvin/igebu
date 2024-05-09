@@ -54,8 +54,8 @@ afficher_liens("Accuweather", "https://www.accuweather.com/",
                "NWC-SAF", "https://eumetrain.org/")
 afficher_liens("Lever et Coucher du soleil", "https://fr.meteocast.net/sunrise-sunset/bi/bujumbura/",
                "Meteologix", "https://meteologix.com/fr")
-afficher_liens("ICPAC", "https://www.icpac.net/",
-               "https://www.icpac.net/")
+
+st.markdown('[ICPAC](https://www.icpac.net/)')
 # Section "Prévision pour le Burundi"
 
 
